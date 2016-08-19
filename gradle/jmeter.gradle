@@ -1,6 +1,0 @@
-jmeterRun.configure {
-    jmeterTestFiles = [file("src/it-test/resources/jmeter/testplan.jmx")]
-    jmeterPropertyFile = file("src/it-test/resources/jmeter/jmeter.properties")
-    //enableReports = false
-    maxHeapSize = '1g'
-}
