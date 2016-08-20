@@ -7,8 +7,8 @@ sonarRunner {
         property "sonar.jdbc.driverClassName", "org.postgresql.Driver"
         property "sonar.jdbc.username", "sonar"
         property "sonar.jdbc.password", "secret"
-        property "sonar.projectKey", "stickynote-service"
-        property "sonar.projectName", "Stickynote service"
+        property "sonar.projectKey", "mario"
+        property "sonar.projectName", "mario"
         property 'sonar.sourceEncoding', 'UTF-8'
         property "sonar.scm.url", "scm:git:http://.git"
         property "sonar.jacoco.reportPath", "$buildDir/jacoco/test.exec"

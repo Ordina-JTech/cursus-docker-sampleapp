@@ -1,9 +1,7 @@
 FROM java:8-jdk
 
-RUN echo 127.0.2.1 mongodb > /etc/hosts; cat /etc/hosts
-
-ADD stickynote-service.jar /
+ADD mario.jar /
 
 EXPOSE 8080
 
-CMD ["java","-jar","/stickynote-service.jar"]
+CMD ["java","-jar","/mario.jar"]
